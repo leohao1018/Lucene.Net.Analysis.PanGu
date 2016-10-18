@@ -118,7 +118,10 @@ namespace PanGu.Framework
             {
                 return _Items;
             }
-
+            set
+            {
+                _Items = value;
+            }
         }
 
         public void ReduceSize(int targetSize)

@@ -12,6 +12,8 @@ using Lucene.Net.QueryParsers;
 using Lucene.Net.Search;
 using Lucene.Net.Store;
 using Lucene.Net.Analysis.PanGu;
+using PanGu;
+using PanGu.Match;
 
 namespace PanGuLucene.Demo
 {
@@ -22,7 +24,36 @@ namespace PanGuLucene.Demo
 
         static void Main(string[] args)
         {
-            string[] texts = new string[] { 
+            Analysis();
+
+
+        }
+
+        static void Analysis()
+        {
+            Segment.Init();
+            var text = "山东省 济宁市 ， 你好李小龙成龙， 15166793828， 277606";
+            var options = new MatchOptions
+            {
+                ChineseNameIdentify = true,
+                OnlyChineseName = true,
+            };
+            var parameters = new MatchParameter
+            {
+            };
+
+            Segment segment = new Segment();
+            ICollection<WordInfo> words = segment.DoSegment(text, options, parameters);
+            foreach (var word in words)
+            {
+                Console.WriteLine(word + "-" + word.WordClass.ToString());
+            }
+            Console.ReadKey();
+        }
+
+        static void LucensAnalysis()
+        {
+            string[] texts = new string[] {
                 "京华时报1月23日报道 昨天，受一股来自中西伯利亚的强冷空气影响，本市出现大风降温天气，白天最高气温只有零下7摄氏度，同时伴有6到7级的偏北风。",
                 "【AppsFlyer：社交平台口碑营销效果最佳http://t.cn/zTHEQRM】社交网络分享应用的方式，在新应用获取用户非常有效率。搜索方式可为移动应用带来最高玩家质量，但玩家量和转化率较低。广告可带来最大用户量，但用户质量却相对不高，转化率也不够高。刺激性流量的转化率最高，但是平均玩家质量是最低",
                 "Server Core省去了Windows Server的图形界面，改为命令行的方式来管理服务器。它不仅拥有更精简的体积与更优化的性能，还可缩短50%-60%的系统更新时间。现在，SQL Server已经支持Windows Server Core，计划内停机时间的大幅缩减让企业关键数据库应用获得更高的可用性。",
@@ -81,10 +112,7 @@ namespace PanGuLucene.Demo
             //a.Close();
             //Console.ReadKey();
 
-
-
             Console.WriteLine();
-
             Console.WriteLine("Building index done!\r\n\r\n");
 
             while (true)
@@ -94,9 +122,7 @@ namespace PanGuLucene.Demo
                 Search(keyword);
                 Console.WriteLine();
             }
-
         }
-
 
         static void Search(string keyword)
         {
@@ -104,7 +130,6 @@ namespace PanGuLucene.Demo
             QueryParser qp = new QueryParser(Lucene.Net.Util.Version.LUCENE_30, "body", analyzer);
             Query query = qp.Parse(keyword); //2008年底  
             Console.WriteLine("query> {0}", query);
-
 
             TopDocs tds = searcher.Search(query, 10);
             Console.WriteLine("TotalHits: " + tds.TotalHits);

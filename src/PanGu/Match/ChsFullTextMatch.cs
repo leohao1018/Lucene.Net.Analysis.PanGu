@@ -17,11 +17,12 @@
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace PanGu.Match
 {
-    public class ChsFullTextMatch: IChsFullTextMatch
+    public class ChsFullTextMatch : IChsFullTextMatch
     {
         class NodeComparer : IComparer<Node>
         {
@@ -122,7 +123,7 @@ namespace PanGu.Match
             public int SpaceCount;
             public double FreqSum;
             public int SingleWordCount;
-            
+
             public Dict.PositionLength PositionLength;
             public Node Parent;
 
@@ -141,7 +142,7 @@ namespace PanGu.Match
                 this.Parent = null;
             }
 
-            public Node(Dict.PositionLength pl, Node parent, int aboveCount, 
+            public Node(Dict.PositionLength pl, Node parent, int aboveCount,
                 int spaceCount, int singleWordCount, double freqSum)
             {
                 PositionLength = pl;
@@ -747,8 +748,6 @@ namespace PanGu.Match
                     result[i].AboveCount = aboveCount;
                 }
             }
-
-
         }
 
         /// <summary>

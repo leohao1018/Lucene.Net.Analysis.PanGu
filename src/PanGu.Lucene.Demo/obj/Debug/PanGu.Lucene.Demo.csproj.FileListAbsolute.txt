@@ -12,3 +12,17 @@ D:\GitHub\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\bin\Debug\Lucene.Net.x
 D:\GitHub\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\obj\Debug\PanGu.Lucene.Demo.csprojResolveAssemblyReference.cache
 D:\GitHub\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\obj\Debug\PanGu.Lucene.Demo.exe
 D:\GitHub\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\obj\Debug\PanGu.Lucene.Demo.pdb
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\bin\Debug\PanGu.Lucene.Demo.exe.config
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\obj\Debug\PanGu.Lucene.Demo.exe
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\obj\Debug\PanGu.Lucene.Demo.pdb
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\bin\Debug\PanGu.Lucene.Demo.exe
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\bin\Debug\PanGu.Lucene.Demo.pdb
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\bin\Debug\Lucene.Net.dll
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\bin\Debug\PanGu.dll
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\bin\Debug\PanGu.Lucene.Analyzer.dll
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\bin\Debug\PanGu.Lucene.Analyzer.pdb
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\bin\Debug\PanGu.pdb
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\bin\Debug\Lucene.Net.pdb
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\bin\Debug\Lucene.Net.xml
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Lucene.Demo\obj\Debug\PanGu.Lucene.Demo.csprojResolveAssemblyReference.cache

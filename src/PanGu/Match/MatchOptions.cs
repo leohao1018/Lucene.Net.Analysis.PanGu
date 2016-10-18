@@ -10,6 +10,11 @@ namespace PanGu.Match
     public class MatchOptions
     {
         /// <summary>
+        /// OnlyChineseName
+        /// </summary>
+        public bool OnlyChineseName = false;
+
+        /// <summary>
         /// 中文人名识别
         /// </summary>
         public bool ChineseNameIdentify = false;

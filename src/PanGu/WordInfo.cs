@@ -16,9 +16,20 @@ namespace PanGu
         Synonym = 7, //同义词
     }
 
+    public enum WordClass
+    {
+        Default = 0,
+        ChineseName = 1,
+    }
+
 
     public class WordInfo : WordAttribute, IComparable<WordInfo>
     {
+        /// <summary>
+        /// Current word class
+        /// </summary>
+        public WordClass WordClass;
+
         /// <summary>
         /// Current word type
         /// </summary>
@@ -54,7 +65,7 @@ namespace PanGu
         }
 
         public WordInfo(string word, POS pos, double frequency)
-            :base(word, pos, frequency)
+            : base(word, pos, frequency)
         {
         }
 
@@ -72,6 +83,7 @@ namespace PanGu
             this.Frequency = pl.WordAttr.Frequency;
             this.WordType = WordType.SimplifiedChinese;
             this.Position = pl.Position;
+            this.WordClass = pl.WordClass;
 
             switch (pl.Level)
             {

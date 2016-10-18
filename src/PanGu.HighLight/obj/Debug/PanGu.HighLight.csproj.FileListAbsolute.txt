@@ -3,3 +3,10 @@ D:\GitHub\Lucene.Net.Analysis.PanGu\Bin\Debug\PanGu.HighLight.pdb
 D:\GitHub\Lucene.Net.Analysis.PanGu\src\PanGu.HighLight\obj\Debug\PanGu.HighLight.csprojResolveAssemblyReference.cache
 D:\GitHub\Lucene.Net.Analysis.PanGu\src\PanGu.HighLight\obj\Debug\PanGu.HighLight.dll
 D:\GitHub\Lucene.Net.Analysis.PanGu\src\PanGu.HighLight\obj\Debug\PanGu.HighLight.pdb
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.HighLight\bin\Debug\PanGu.HighLight.dll
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.HighLight\bin\Debug\PanGu.HighLight.pdb
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.HighLight\bin\Debug\PanGu.dll
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.HighLight\bin\Debug\PanGu.pdb
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.HighLight\obj\Debug\PanGu.HighLight.csprojResolveAssemblyReference.cache
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.HighLight\obj\Debug\PanGu.HighLight.dll
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.HighLight\obj\Debug\PanGu.HighLight.pdb

@@ -8,3 +8,14 @@ D:\GitHub\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\obj\Debug\Pangu.Demo.csprojRe
 D:\GitHub\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\obj\Debug\Demo.FormDemo.resources
 D:\GitHub\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\obj\Debug\Demo.Properties.Resources.resources
 D:\GitHub\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\obj\Debug\Pangu.Demo.csproj.GenerateResource.Cache
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\bin\Debug\Demo.exe
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\bin\Debug\Demo.pdb
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\bin\Debug\PanGu.dll
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\bin\Debug\PanGu.pdb
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\obj\Debug\Pangu.Demo.csprojResolveAssemblyReference.cache
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\obj\Debug\Demo.FormDemo.resources
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\obj\Debug\Demo.Properties.Resources.resources
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\obj\Debug\Pangu.Demo.csproj.GenerateResource.Cache
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\obj\Debug\Demo.exe
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\obj\Debug\Demo.pdb
+E:\03_tools\pangu\Lucene.Net.Analysis.PanGu\src\PanGu.Demo\bin\Debug\Demo.exe.config
